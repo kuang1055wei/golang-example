@@ -6,7 +6,7 @@ import (
 )
 
 func timestampDemo() {
-	now := time.Now()            //获取当前时间
+	now := time.Now()           //获取当前时间
 	timestamp1 := now.Unix()     //时间戳
 	timestamp2 := now.UnixNano() //纳秒时间戳
 	fmt.Printf("当前时间:%v\n" , now)
