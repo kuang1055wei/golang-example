@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	bigint, _ := rand.Int(rand.Reader, big.NewInt(100))
+	bigint, _ := rand.Int(rand.Reader, big.NewInt(100000000))
 	fmt.Println(bigint)
 }
